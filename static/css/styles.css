@@ -108,6 +108,8 @@ body {
   font-size: 16px;
   position: relative;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -903,6 +905,7 @@ textarea:focus {
 /* Responsive Design */
 @media (max-width: 992px) {
   .hero-content {
+    display: block;
     grid-template-columns: 1fr;
   }
 
@@ -921,6 +924,7 @@ textarea:focus {
 
   .footer-nav {
     justify-content: flex-start;
+    gap: 1.3rem;
   }
 }
 
