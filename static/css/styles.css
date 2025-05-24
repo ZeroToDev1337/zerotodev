@@ -399,6 +399,13 @@ html[data-theme="light"] .moon-icon {
   margin-bottom: 2rem;
 }
 
+.project-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
 .hero-visual {
   position: relative;
 }
@@ -971,6 +978,11 @@ textarea:focus {
   }
 
   .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project-buttons {
     flex-direction: column;
     width: 100%;
   }
